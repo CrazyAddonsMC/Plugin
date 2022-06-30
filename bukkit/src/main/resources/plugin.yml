@@ -1,0 +1,9 @@
+name: CrazyAddons
+main: app.crazyaddons.plugin.CrazyAddons
+version: ${project.version}
+api-version: 1.13
+load: STARTUP
+commands:
+  crazyaddons:
+    aliases: ["ca", "crazy", "cai", "cau"]
+    description: The global crazy addons command
